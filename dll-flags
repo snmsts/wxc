@@ -1,0 +1,2 @@
+if [ "`uname`" == "Darwin" ]; then echo "-dynamiclib -install_name" ;else echo "-shared";fi
+
